@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<title>pantry</title>
+</head>
+<body>
+<link href="pantry.css" rel="stylesheet">
+    
+    <div class="toolbar">
+        
+        <div class="leftside">
+            <a href="spatulr.html"><img src="spatulr.png" alt="spatulr"></a>
+        </div>
+        
+        <div class="rightside">
+            <a href="#profile"><img src ="profile.png" alt="profile" ></a>
+        </div>
+        
+        <div class="rightside">
+            <a href="pantry.html" class="active"><img src="pantry.png" alt="pantry"></a>
+        </div>
+        
+        <div class="rightside">
+            <a href="#" id="searchButton"><img src="search.png" alt="search"></a>
+                    <form><input id="searchBox" type="text" class="searchField"></form>
+        </div>
+    
+    </div>
+    
+    <div class="makePost" id="postBox">
+        <div class="newPost" id="textPost"><a href="#"><img src="text.png" alt="text" height="20px">Text</div></a>
+        <div class="newPost" id="photoPost"><a href="#"><img src="photo.png" name="photo" alt="photo" height="20px">Photo</div></a>
+        <div class="newPost" id="videoPost"><a href="#"><img src="video.png" alt="video" height="20px">Video</div></a>
+    </div>
+    
+    <div class="profileBox" id="profileBox">
+        <h1> IronMan </h1>
+        <img src="https://i.annihil.us/u/prod/marvel/i/mg/3/50/519d0416b2f39/landscape_xlarge.jpg" alt="Your profile picture">
+        <p>Billionaire, Engineer</p>
+        <p> Gentle Lover?</p>
+        <p><a href="#followers">12 followers!</a></p>
+        <p><a href="#follows">Following 2!</a></p>
+        <p>1000 flips!</p>
+    </div>
+
+<div class ="postFeed" id="postFeed">
+    <div class="post">
+        <div class="header"><a href="IronMan.html" class="blogName" id="flippedBy">flippedby</a> 
+            <img src="flipped.png" alt="video" height="15px"> 
+            <a href="CaptainAmerica.html" class="blogName" id="flippedFrom">flippedfrom</a>
+        </div>
+        <div class="content"> Some bullshit content </div>
+        <div class="tags"> #relatable </div>
+        <div class="footer" id="flip"><img src="flip.png" alt="video" height="20px" id="spatula"> Flip!</div>
+
+        <div class="flipProfiles">
+            <div class="flipperProfile" id="flipperProfile">
+                <h1> IronMan </h1>
+                <img src="https://i.annihil.us/u/prod/marvel/i/mg/3/50/519d0416b2f39/landscape_xlarge.jpg" alt="Your profile picture">
+                <p>Billionaire, Engineer</p>
+                <p><a href="#followers">12 followers!</a></p>
+                <p><a href="#follows">Following 2!</a></p>
+                <p>1000 flips!</p>
+            </div>
+            
+                <div class="flippedProfile" id="flippedProfile">
+                    <h1> CaptainAmerica </h1>
+                    <img src="http://vignette4.wikia.nocookie.net/disney-infinity/images/a/a4/CaptainAmerica4-TFA.jpg/revision/latest?cb=20140527123300" alt="Your profile picture">
+                    <p>I'm the Cap</p>
+                    <p><a href="#followers">12 followers!</a></p>
+                    <p><a href="#follows">Following 2!</a></p>
+                    <p>1000 flips!</p>
+                </div>
+
+            </div>
+    
+    </div>
+</div>
+
+<div class="popUp" id="popUp">
+    
+    <div class="photoPopUp" id="photoPopUp">
+        <h1>Post a photo or image</h1>
+        <p><textarea>Throw your link in here! Please, I beg of you!</textarea></p>
+        <p><textarea>Place a caption for this image. Go on, you know you want to.</textarea></p>
+        <p><textarea>Tag your photo #using #hashtags</textarea></p>
+        <p> Post it?</p>
+        <button type="button" id="yup1" class="yesButton">Yeah!</button>
+        <button type="button" id="Naw1" class="noButton">Naw</button>
+    </div>
+    
+    <div class="textPopUp" id="textPopUp">
+        <h1>Post some words!</h1>
+        <p><textarea>All the words will live here.</textarea></p>
+        <p><textarea>Tag ypur message with #hashtags</textarea></p>
+        <p> Post it?</p>
+        <button type="button" id="yup2" class="yesButton">Yeah!</button>
+        <button type="button" id="Naw2" class="noButton">Naw</button>
+    </div>
+    
+    <div class="videoPopUp" id="videoPopUp">
+        <h1>Post a video</h1>
+        <p><textarea>Throw your link in here! Please, I beg of you!</textarea></p>
+        <p><textarea>Place a caption for this video. You can only make it better.</textarea></p>
+        <p><textarea>Tag this video #using #hashtags</textarea></p>
+        <p> Post it?</p>
+        <button type="button" id="yup3" class="yesButton">Yeah!</button>
+        <button type="button" id="Naw3" class="noButton">Naw</button>
+    </div>
+
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="pantry.js"></script>
+</html>
